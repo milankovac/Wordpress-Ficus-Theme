@@ -5,10 +5,10 @@
           <div class="row">
           
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Footer Content</h5>
+              <h5 class="text-uppercase"><?php echo get_theme_mod('title_footer','FOOTER CONTENT'); ?></h5>
       
               <p>
-                Ficus is a pantropical genus of trees, shrubs, and vines occupying a wide variety of ecological niches; most are evergreen, but some deciduous species are endemic to areas outside of the tropics and to higher elevations.
+              <?php echo get_theme_mod('text_footer','FOOTER TEXT'); ?>
               </p>
             </div>
            
@@ -17,38 +17,21 @@
       
               <ul class="list-unstyled mb-0">
                 <li>
-                  <a href="#!" class="text-dark">Link 1</a>
+                  <a href="<?php echo get_theme_mod('link1_footer'); ?>" class="text-dark">Link 1</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Link 2</a>
+                  <a href="<?php echo get_theme_mod('link2_footer'); ?>" class="text-dark">Link 2</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Link 3</a>
+                  <a href="<?php echo get_theme_mod('link3_footer'); ?>" class="text-dark">Link 3</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-dark">Link 4</a>
+                  <a href="<?php echo get_theme_mod('link4_footer'); ?>" class="text-dark">Link 4</a>
                 </li>
               </ul>
             </div>
            
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase mb-0">Links</h5>
-      
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#!" class="text-dark">Link 1</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Link 2</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Link 3</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-dark">Link 4</a>
-                </li>
-              </ul>
-            </div>
+            
             
           </div>
           

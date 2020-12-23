@@ -7,6 +7,7 @@ Version: 1.0
 body
 {
     background-color:#DADED4 !important;
+   
     font-family: 'Courier New', Courier, monospace;
  position: relative;
 }
@@ -72,6 +73,7 @@ section
 {
     margin-top: 100px;
     margin-bottom: 500px;
+   
 }
 footer
 {
@@ -142,4 +144,16 @@ hr
     position:absolute;
     left: 35%;
     margin-bottom: 150px;
+}
+.page-img img
+{
+    width:auto !important;
+    height: 500px !important;
+}
+.page-content
+{
+    width: auto;
+    padding: 25px;
+    
+
 }
